@@ -1,0 +1,25 @@
+# Site settings
+title: ACG-House
+email: jskyzero@outlook.com
+description: The jskyzero's ACG-House
+baseurl: "/ACG-House" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Logo settings
+logo-image-url: assets/img/Nishiki.png
+font-awesome-icon-logo: 
+
+# Social settings
+github_username: jskyzero
+twitter_username: jskyzero
+facebook_URL: 
+instagram_username: 
+dribbble_username: 
+500px_username: 
+phone: 
+
+# Build settings
+markdown: kramdown
+
+# Layout settings
+home-link-in-menu: yes
