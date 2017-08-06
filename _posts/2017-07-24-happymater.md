@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  hapymaher
+title:  happymaher
 date:   2017/07/24
 thumbnail: "hapymaher/1 (5).jpg"
 ---
