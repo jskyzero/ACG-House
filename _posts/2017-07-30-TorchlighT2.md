@@ -3,8 +3,7 @@ layout: post
 title:  "TorchlighT 2"
 date:   2017/07/29
 thumbnail: "torchlight/1 (1).jpg"
-author: jskyzero
-author_img: jskyzero.jpg
+
 ---
 
 大概是处于补票钱的心态，火炬之光1/2都很喜欢
