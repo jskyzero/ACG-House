@@ -76,9 +76,13 @@ body {
   padding: 10px 0;
 }
 
-  #main div.row #card {
-    padding: 0.5em;
-  }
+    #main div.row  {
+      margin: 0;
+    }
+      #main div.row #card {
+        padding: 0.5em;
+        margin: 0;
+      }
 
   #main article {
     background: white;
