@@ -13,7 +13,7 @@ plugins: [jekyll-paginate]
 markdown:    kramdown
 
 # 分页显示文章列表
-paginate:     12
+paginate:     24
 
 # default author settings
 author:             "Nishiki"
