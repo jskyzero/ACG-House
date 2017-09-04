@@ -45,6 +45,10 @@ body {
       #post .header-img {
           margin: 0 0 2em 0;
       }
+
+      header a .description {
+        display: none;
+      }
 }
 
 /* pagination */
