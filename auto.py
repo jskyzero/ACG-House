@@ -22,6 +22,7 @@ def process(path):
 
   with open(path + "/main.md", mode='r', encoding="utf8") as md_file:
     title = md_file.readline().rstrip()
+    head = md_file.readline().rstrip()
     content = md_file.read()
     title = "_".join(title.title().split(" "))
 
@@ -39,7 +40,7 @@ title:  "{0}"
 date:   "{1}"
 thumbnail: "{2}"
 ---
-""".format(title, datetime.datetime.now().strftime("%Y/%m/%d"), "/img.auto/{0}/{1}".format(title, imgs[0]))
+""".format(head, datetime.datetime.now().strftime("%Y/%m/%d"), "/img.auto/{0}/{1}".format(title, imgs[0]))
     article += (content + "\n\n")
     article += "\n".join(map(
         lambda img: "![]({{site.baseurl}}"+"/{0}/{1})".format(img_path[2:], img), imgs[1:]))
