@@ -29,8 +29,14 @@ def process(path):
     img_path = "./assets/img/img.auto/{0}".format(title)
     if not os.path.exists(img_path):
       os.mkdir(img_path)
-    os.system(SHELL + ' -c ' + "mv {0}/*.jpg {1}".format(path, img_path))
-    os.system(SHELL + ' -c ' + "mv {0}/*.png {1}".format(path, img_path))
+    if os.name == 'nt':
+     os.system(SHELL + ' -c ' + "mv {0}/*.jpg {1}".format(path, img_path))
+     os.system(SHELL + ' -c ' + "mv {0}/*.png {1}".format(path, img_path))
+    else:
+     print("mv {2}/{0}/*.jpg {2}/{1}/".format(path, img_path, os.getcwd()))
+     os.system(SHELL + ' -c ' + "mv {2}/{0}/*.jpg {2}/{1}/".format(path, img_path, os.getcwd()))
+     os.system(SHELL + ' -c ' + "mv {2}/{0}/*.png {2}/{1}/".format(path, img_path, os.getcwd()))
+      
     os.system(PYTHON + " ./tinypng.py -r {0}".format(img_path))
 
     imgs = [f for f in os.listdir(img_path)]
