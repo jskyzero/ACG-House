@@ -2,7 +2,7 @@
 layout: post
 title:  "Nights of Azure 总评"
 date:   "2018/02/20"
-thumbnail: "/img.auto/Nights_Of_Azure/20171123215723_1.jpg"
+thumbnail: "/img.auto/Nights_Of_Azure/20180220000833_1.jpg"
 ---
 [spoiler] 玛德智障游戏，游戏体验极差。	[/spoiler]
 我现在就觉得这游戏就算单纯做成Galgame都比现在这样好，一手好牌打的稀烂。
@@ -13,6 +13,7 @@ thumbnail: "/img.auto/Nights_Of_Azure/20171123215723_1.jpg"
 
 有些游戏玩了以后就觉得不仅毫无收获，而且体验极差，总之不推荐。
 
+![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20171123215723_1.jpg)
 ![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20171123223311_1.jpg)
 ![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20171206214057_1.jpg)
 ![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20180112135623_1.jpg)
@@ -23,4 +24,3 @@ thumbnail: "/img.auto/Nights_Of_Azure/20171123215723_1.jpg"
 ![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20180219180445_1.jpg)
 ![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20180219183626_1.jpg)
 ![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20180219211757_1.jpg)
-![]({{site.baseurl}}/assets/img/img.auto/Nights_Of_Azure/20180220000833_1.jpg)
